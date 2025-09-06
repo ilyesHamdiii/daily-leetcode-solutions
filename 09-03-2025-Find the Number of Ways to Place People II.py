@@ -2,7 +2,6 @@
 # Time:O(n + k log n)
 # 
 # # Space:O(n^2)
-# Python:O(1)
 class Solution:
     def numberOfPairs(self, P: List[List[int]]) -> int:
         P.sort(key=lambda p:(-p[0], p[1]))
