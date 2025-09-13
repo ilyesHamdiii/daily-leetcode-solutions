@@ -2,7 +2,6 @@
 # Time:O(1)
 # 
 # # Space:O(n)
-# Python:O(1)
 class Solution:
     def findClosest(self, x: int, y: int, z: int) -> int:
         if abs(x-z)==abs(y-z):
