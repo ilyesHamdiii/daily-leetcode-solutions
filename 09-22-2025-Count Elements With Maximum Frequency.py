@@ -12,7 +12,7 @@ class Solution:
         # Get the highest frequency
         maxfreq = max(res.values())
         # Get all the vlues that have that frequency there are a couple ways to approach this but since we have to look through them any ways I just add it to total
-        for vals in res.values():
+        for vals in res.values(): 
             if vals == maxfreq:
                 total += vals
         return total
