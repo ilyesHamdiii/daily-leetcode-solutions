@@ -1,6 +1,6 @@
 #https://leetcode.com/problems/valid-triangle-number/description/?envType=daily-question&envId=2025-09-26 
 # Time:O(1)
-# 
+# python
 # # Space:O(n)
 class Solution(object):
     def triangleNumber(self, nums):
